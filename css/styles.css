@@ -1,0 +1,76 @@
+/* Add your styles for game app here. */
+/* Theme colors:
+
+red darken: #220901
+red dark:   #621708
+red:        #941b0c
+orange:     #bc3908
+yellow:     #f6aa1c
+
+https://coolors.co/app/220901-621708-941b0c-bc3908-f6aa1c
+*/
+body {
+  background-color: #f6aa1c;
+}
+
+header {
+  background-color: #bc3908 !important;
+  border-bottom: 3px solid #220901;
+}
+
+header p {
+  color: #220901;
+}
+
+header h1 {
+  color: #f6aa1c !important;
+}
+
+article {
+  color: #621708;
+}
+
+.btn.bg-red {
+  background: #941b0c !important;
+  border-color: #941b0c !important;
+  border: 3px solid;
+  border-radius: 10px;
+}
+
+.btn.bg-red:hover {
+  background: #bc3908 !important;
+  border-color: #941b0c !important;
+}
+
+footer {
+  border-top: 3px solid #220901;
+  background-color: #bc3908 !important;
+  color: #220901 !important;
+}
+
+footer a {
+  color: #f6aa1c !important;
+}
+
+footer a:hover {
+  color: white !important;
+}
+
+#words-game-table {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 3px solid #220901;
+}
+
+textarea {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 3px solid #220901;
+  color: #621708;
+}
+
+textarea, input, button {
+  outline: none;
+}

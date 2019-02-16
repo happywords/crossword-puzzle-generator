@@ -1,0 +1,9 @@
+TODO list
+=========
+
+[Feature] Add level (easy, medium, hard) - this means different number of lines and columns and words direction.
+[Feature] Show Loading... until the game is generated.
+[Feature] Show messages for user instead of console.log.
+[Improve] Words can share a point if letters are the same and directions are different.
+[Question] Short words first or long ones? :)
+[Idea] Export as jpg or pdf.
