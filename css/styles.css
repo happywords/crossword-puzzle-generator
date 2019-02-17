@@ -74,3 +74,17 @@ textarea {
 textarea, input, button {
   outline: none;
 }
+
+
+@media print {
+  header,
+  a.github-corner,
+  #game-form-container,
+  article#form-section {
+    display: none;
+  }
+
+  footer {
+    border-top: none;
+  }
+}
