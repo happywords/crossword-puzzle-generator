@@ -407,6 +407,11 @@ angular.module('words_app', []).controller('words_controller', function() {
     app.game.is_hint_visible = false;
   };
 
+  app.game.print = function() {
+    // Print the page
+    window.print();
+  };
+
   // INIT
   app.game.create_game_matrix();
 });

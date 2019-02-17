@@ -59,6 +59,7 @@
               <button ng-show="app.game.is_hint_visible" ng-click="app.game.hide_hint()" class="btn bg-red">Hide hint</button>
               <button ng-show="!app.game.is_solved" ng-click="app.game.solve_game()" class="btn bg-red">Solve</button>
               <button ng-show="app.game.is_solved" ng-click="app.game.unsolve_game()" class="btn bg-red">Unsolve</button>
+              <button ng-click="app.game.print()" class="btn bg-red">Print</button>
             </div>
           </form>
         </div>
