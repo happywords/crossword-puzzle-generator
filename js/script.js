@@ -62,18 +62,12 @@ angular.module('words_app', []).controller('words_controller', function() {
   app.game.hidden_words_list = [
     // We save hidden words in this list.
     // Default words are used in example.
-    "GO",
-    "RED",
     "TRUE",
-    "INSIDE",
     "BEAUTIFUL",
-    "LEARN",
     "HELPFUL",
-    "CONNECT",
-    "BRANDING",
-    "CONVERSATION",
-    "AUTHENTIC",
-    "RESPOND"
+    "POSITIVE",
+    "GREAT",
+    "AMAZING"
   ];
 
   app.game.matrix = app.util.generate_random_letters_matrix(app.game.number_lines, app.game.number_columns);
