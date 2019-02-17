@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/caiuss.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+          integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+          crossorigin="anonymous"></script>
   <script src="js/angular.min.js"></script>
   <script src="js/script.js"></script>
 </head>
@@ -59,7 +62,8 @@
               <button ng-show="app.game.is_hint_visible" ng-click="app.game.hide_hint()" class="btn bg-red">Hide hint</button>
               <button ng-show="!app.game.is_solved" ng-click="app.game.solve_game()" class="btn bg-red">Solve</button>
               <button ng-show="app.game.is_solved" ng-click="app.game.unsolve_game()" class="btn bg-red">Unsolve</button>
-            </div>
+              <button ng-click="app.game.export_pdf()" class="btn bg-red">Export PDF</button>
+             </div>
           </form>
         </div>
       </div>

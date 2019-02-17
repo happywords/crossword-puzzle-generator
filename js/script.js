@@ -407,6 +407,13 @@ angular.module('words_app', []).controller('words_controller', function() {
     app.game.is_hint_visible = false;
   };
 
+  app.game.export_pdf = function() {
+    // Export the puzzle as PDF
+    var doc = new jsPDF();
+    doc.text('Hello world!', 10, 10);
+    doc.save('a4.pdf');
+  };
+
   // INIT
   app.game.create_game_matrix();
 });
